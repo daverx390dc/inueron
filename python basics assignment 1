@@ -1,0 +1,53 @@
+Python basics assignment 1
+
+
+1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+*  - expression
+'hello' - value
+-87.8 - expression
+-  expression
+/  expression
++ expression
+6 value
+
+2. What is the difference between string and variable?
+
+Ans : string =  group of letters, numbers or characters but not numeric values written between     “string” or ‘string’ i.e. ‘my name’
+variable = is where we can assign some values as well as change it. i.e x=5, y=’hello’
+
+3. Describe three different data types.
+Ans :
+1. numeric = integer, float etc
+2. Sequence = List, range
+3.Mapping = Dictionary
+
+4. What is an expression made up of? What do all expressions do?
+Ans: An expression is a combination of values, variables, operators, and calls to functions. Expression yields information that can be viewed by using statement
+
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+Ans = statement is a command or action that does something i.e print(“hello world),
+while expression is combination of values, operators, variables that yields something. i.e x=5
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+ans = after running code bacon =22
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+Ans : ‘spamspamspam
+'spam' * 3
+Ans : ‘spamspamspam
+
+8. Why is eggs a valid variable name while 100 is invalid?
+Ans: we cant use numbers as variables, that is why 100=100 is not valid while eggs=100 is valid.
+
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+Ans:  Int(X), float(X), str(X)
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+Ans: here + is used to concate strings but not to mathematically add values and 99 is not a string so this causes an error but we can fix it b converting 99 as a string using ‘99’ now it will work 'I have eaten ' + ‘99’ + ' burritos.'
+
+
+
